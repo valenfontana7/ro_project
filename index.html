@@ -1,20 +1,46 @@
 <!DOCTYPE html>
 <html lang="es">
   <head>
-    <meta charset="UTF-8"/>
-    <meta name="description" content="lo que el usuario ve al buscar la pagina en el navegador"/>
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="lo que el usuario ve al buscar la pagina en el navegador"
+    />
     <meta name="robots" content="index,follow" />
-    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./styles.css" />
     <title>Proyecto Ro</title>
-    <meta name="viewport" content="width=device-width, inicial-scale=1.0">
-    <link rel="icon" href="./favicon.png">
+    <meta name="viewport" content="width=device-width, inicial-scale=1.0" />
+    <link rel="icon" href="./favicon.png" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Original+Surfer&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header class="header">
-      <img src="./header.png" alt="Logo">
+      <img class="header__img" src="./header.png" alt="Logo" />
+      <div class="header__menu">
+        <div class="header__menu--profile">
+          <img
+            src="https://img.icons8.com/plasticine/100/000000/user-male-circle.png"
+            alt="User"
+          />
+        </div>
+        <ul>
+          <li><a href="">Mi Perfil</a></li>
+          <li><a href="">Cerrar Sesión</a></li>
+        </ul>
+      </div>
     </header>
-    <footer class="footer">
-    </footer>
+    <section class="main">
+      <h2 class="main__title">¿Qué quieres ver hoy?</h2>
+      <input class="input" type="text" placeholder="Buscar..." />
+    </section>
+    <footer class="footer"></footer>
   </body>
-
 </html>
